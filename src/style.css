@@ -1,0 +1,86 @@
+body {
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #search-input {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #D5D5D5;
+  }
+  
+  #search-input:focus {
+    outline: none;
+    border-color: #FF0000;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #FF0000;
+    color: #FFF;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #D40000;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  #weatherForecast {
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+  }
+  
+  /* Polish Flag Accents */
+  .flag {
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background-color: #FF0000;
+    position: relative;
+  }
+  
+  .flag:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7.5px 7.5px 0 7.5px;
+    border-color: #FF0000 transparent transparent transparent;
+    transform: translateX(-50%);
+  }
